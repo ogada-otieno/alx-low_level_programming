@@ -10,6 +10,7 @@
  * use the putchar function
  * use putchar five times maximum
  * not allowed to use any variable of type char
+ * Return: 0
  */
 int main(void)
 {
