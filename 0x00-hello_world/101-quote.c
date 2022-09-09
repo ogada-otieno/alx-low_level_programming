@@ -2,7 +2,7 @@
 #include <string.h>
 #include <unistd.h>
 
-/*
+/**
  * main - Entry point
  *
  * return: Always 1 (Success)
