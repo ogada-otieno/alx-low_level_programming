@@ -3,9 +3,9 @@
 #include <unistd.h>
 
 /**
- * main - Entry point
- *
- * return: Always 1 (Success)
+ * main - main block
+ * Description: prints given text
+ * Return: 1
  */
 int main(void)
 {
