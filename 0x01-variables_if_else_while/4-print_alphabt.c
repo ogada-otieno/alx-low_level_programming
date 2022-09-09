@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - main block
- * Description: prints the alphabet in lowercase except 'q' and 'e' using putchar
+ * Description: prints alphabet in lowercase except 'q' and 'e' using putchar
  * Return: 0
  */
 int main(void)
