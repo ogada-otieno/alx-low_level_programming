@@ -6,7 +6,7 @@
  * Numbers must be separated by ,, followed by a space
  * printed in ascending order
  * use the putchar function
- * use putchar four times maximum 
+ * use putchar four times maximum
  * Return: 0
  */
 int main(void)
