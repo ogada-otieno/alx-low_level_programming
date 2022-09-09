@@ -1,9 +1,8 @@
 #include <stdio.h>
 
 /**
- *
- * main - Prints the size of data types
- *
+ * main - main block
+ * Description: Prints the size of data types
  * Return: 0
  */
 int main(void)
