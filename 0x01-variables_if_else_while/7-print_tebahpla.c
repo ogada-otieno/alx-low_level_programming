@@ -1,8 +1,10 @@
 #include <stdio.h>
+
 /**
- * main -main block
- * Description: printing the alphabet in reverse lowercase
- * Return 0
+ * main - main block
+ * Description:  prints the lowercase alphabet in reverse
+ * only use the putchar function
+ * Return: 0
  */
 int main(void)
 {
