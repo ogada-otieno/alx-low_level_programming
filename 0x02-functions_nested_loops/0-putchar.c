@@ -7,13 +7,13 @@
  */
 int main(void)
 {
-	char string [] = '_putchar\n';
-	int count = 0;
+	char *sh = "_putchar";
 
-	while (string[count] != '\0')
+	while (*sh)
 	{
-		_putchar(string[count]);
-		count++;
+		_putchar(*sh)
+		sh++;
 	}
+	_putchar('\n');
 	return(0);
 }
