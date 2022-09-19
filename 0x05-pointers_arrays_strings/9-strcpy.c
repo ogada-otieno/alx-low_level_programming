@@ -2,6 +2,8 @@
 
 /**
  * *_strcpy - copies the string pointed to by src
+ * @dest: char type string
+ * @src: char type string
  * including the terminating null byte  (\0)
  * to the buffer pointed to by dest
  * Return: dest
