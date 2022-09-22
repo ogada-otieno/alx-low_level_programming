@@ -7,7 +7,6 @@
  * @n: number of elements to concatenate in
  * Return: pointer to resulting dest
  */
-
 char *_strncat(char *dest, char *src, int n)
 {
 	int a, b;
@@ -19,6 +18,6 @@ char *_strncat(char *dest, char *src, int n)
 	{
 		dest [a] = src [b];
 	}
-
+	
 	return (dest);
 }
