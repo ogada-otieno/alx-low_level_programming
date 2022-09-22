@@ -7,9 +7,7 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	char *dest[20];
-	char *src[];
-	_putchar("%s", *dest);
+	_putchar("%s", dest);
 
 	return (0);
 }
