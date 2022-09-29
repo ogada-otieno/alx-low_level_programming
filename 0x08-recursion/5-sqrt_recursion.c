@@ -11,9 +11,20 @@
 
 int _sqrt_recursion(int n)
 {
-	if (n < 0)
-	{
+	int function(int root, int square);
+	return (function(0, n));
+}
+/**
+ * function - function gets square argument and returns the root
+ * @root: root argument
+ * @square: square being determined
+ * Return: root
+ */
+int function(int root, int square)
+{
+	if (root * root == square)
+		return (root);
+	if (root * root > square)
 		return (-1);
-	}
-	return (_sqrt_recursion(n));
+	return (function((root + 1), square));
 }
