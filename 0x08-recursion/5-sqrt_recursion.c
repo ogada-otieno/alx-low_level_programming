@@ -15,22 +15,5 @@ int _sqrt_recursion(int n)
 	{
 		return (-1);
 	}
-	return (sqrt(n, (n + 1) / 2));
-}
-
-/**
- * sqrt - checks if perfect square
- * @n: input
- * @i: counter
- * Return: if square root
- */
-
-int sqrt(int n, int i)
-{
-	if (i < 1)
-		return (-1);
-	else if (i * i == n)
-		return (i);
-	else
-		return (sqrt(n, i - 1));
+	return (_sqrt_recursion(n));
 }
