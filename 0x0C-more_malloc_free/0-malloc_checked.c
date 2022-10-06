@@ -3,7 +3,6 @@
 /**
  * malloc_checked - allocs memory using malloc
  * @b: unsigned integer
- * @a: pointer
  * Return: pointer
  */
 
