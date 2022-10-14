@@ -5,4 +5,5 @@
 3.1. 3-calc.h\
 3.2. 3-get_op_func.c\
 3.3. 3-main.c\
-3.4. 3-op_functions.c
+3.4. 3-op_functions.c\
+4. Write a program that prints the opcodes of its own main function
